@@ -1,0 +1,961 @@
+The system is: Linux - 4.4.0-19041-Microsoft - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/d/code_project/nanopi/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/d/code_project/nanopi/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88c93/fast && /usr/bin/make -f CMakeFiles/cmTC_88c93.dir/build.make CMakeFiles/cmTC_88c93.dir/build
+make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88c93.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_88c93.dir/testCCompiler.c.o   -c /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_88c93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c93.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_88c93.dir/testCCompiler.c.o  -o cmTC_88c93 
+make[1]: Leaving directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e90a1/fast && /usr/bin/make -f CMakeFiles/cmTC_e90a1.dir/build.make CMakeFiles/cmTC_e90a1.dir/build
+make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2s0wDT.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o /tmp/cc2s0wDT.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_e90a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e90a1.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o  -o cmTC_e90a1 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e90a1' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLhve0d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e90a1 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e90a1' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e90a1/fast && /usr/bin/make -f CMakeFiles/cmTC_e90a1.dir/build.make CMakeFiles/cmTC_e90a1.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2s0wDT.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o /tmp/cc2s0wDT.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_e90a1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e90a1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o  -o cmTC_e90a1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e90a1' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLhve0d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e90a1 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLhve0d.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e90a1] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c02e/fast && /usr/bin/make -f CMakeFiles/cmTC_3c02e.dir/build.make CMakeFiles/cmTC_3c02e.dir/build
+make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c02e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_3c02e.dir/testCXXCompiler.cxx.o -c /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3c02e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c02e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_3c02e.dir/testCXXCompiler.cxx.o  -o cmTC_3c02e 
+make[1]: Leaving directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0998/fast && /usr/bin/make -f CMakeFiles/cmTC_a0998.dir/build.make CMakeFiles/cmTC_a0998.dir/build
+make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccsz34oz.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsz34oz.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_a0998
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0998.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a0998 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0998' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6poDQT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a0998 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0998' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_a0998/fast && /usr/bin/make -f CMakeFiles/cmTC_a0998.dir/build.make CMakeFiles/cmTC_a0998.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccsz34oz.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsz34oz.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_a0998]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0998.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a0998 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0998' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6poDQT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a0998 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6poDQT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a0998] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_a0998.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+The system is: Linux - 4.4.0-19041-Microsoft - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/d/code_project/nanopi/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/d/code_project/nanopi/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_127e0/fast && /usr/bin/make -f CMakeFiles/cmTC_127e0.dir/build.make CMakeFiles/cmTC_127e0.dir/build
+make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_127e0.dir/testCCompiler.c.o
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc    -o CMakeFiles/cmTC_127e0.dir/testCCompiler.c.o   -c /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_127e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_127e0.dir/link.txt --verbose=1
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc      -rdynamic CMakeFiles/cmTC_127e0.dir/testCCompiler.c.o  -o cmTC_127e0 
+make[1]: Leaving directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ec84/fast && /usr/bin/make -f CMakeFiles/cmTC_3ec84.dir/build.make CMakeFiles/cmTC_3ec84.dir/build
+make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc   -v -o CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc
+Target: arm-cortexa9-linux-gnueabihf
+Configured with: /work/toolchain/build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9-linux-gnueabihf --prefix=/opt/FriendlyARM/toolchain/4.9.3 --with-sysroot=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-languages=c,c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion=ctng-1.21.0-229g-FA --with-bugurl=http://www.friendlyarm.com/ --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --with-gmp=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpfr=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpc=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-isl=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-cloog=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-libelf=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-linker-build-id --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-multilib --with-local-prefix=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-long-long
+Thread model: posix
+gcc version 4.9.3 (ctng-1.21.0-229g-FA) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu'
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/cc1 -quiet -v -iprefix /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/ -isysroot /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3 -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccJlOnVO.s
+GNU C (ctng-1.21.0-229g-FA) version 4.9.3 (arm-cortexa9-linux-gnueabihf)
+	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include"
+ignoring nonexistent directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/include"
+ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed"
+ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/include
+End of search list.
+GNU C (ctng-1.21.0-229g-FA) version 4.9.3 (arm-cortexa9-linux-gnueabihf)
+	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: eeb0d0cd8c4112e84e5c64edda5289df
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu'
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3 -meabi=5 -o CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o /tmp/ccJlOnVO.s
+GNU assembler version 2.25.1 (arm-cortexa9-linux-gnueabihf) using BFD version (ctng-1.21.0-229g-FA) 2.25.1
+COMPILER_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu'
+Linking C executable cmTC_3ec84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ec84.dir/link.txt --verbose=1
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc     -v -rdynamic CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o  -o cmTC_3ec84 
+Using built-in specs.
+COLLECT_GCC=/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc
+COLLECT_LTO_WRAPPER=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper
+Target: arm-cortexa9-linux-gnueabihf
+Configured with: /work/toolchain/build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9-linux-gnueabihf --prefix=/opt/FriendlyARM/toolchain/4.9.3 --with-sysroot=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-languages=c,c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion=ctng-1.21.0-229g-FA --with-bugurl=http://www.friendlyarm.com/ --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --with-gmp=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpfr=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpc=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-isl=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-cloog=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-libelf=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-linker-build-id --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-multilib --with-local-prefix=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-long-long
+Thread model: posix
+gcc version 4.9.3 (ctng-1.21.0-229g-FA) 
+COMPILER_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3ec84' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu'
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/collect2 -plugin /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4Hgo3c.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_3ec84 /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crt1.o /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crti.o /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtbegin.o -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3 -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib -L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib -L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtend.o /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crtn.o
+make[1]: Leaving directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include]
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed]
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include]
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/include]
+  end of search list found
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include] ==> [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include]
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed] ==> [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed]
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include]
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/include] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/usr/include]
+  implicit include dirs: [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include;/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_3ec84/fast && /usr/bin/make -f CMakeFiles/cmTC_3ec84.dir/build.make CMakeFiles/cmTC_3ec84.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc   -v -o CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc]
+  ignore line: [Target: arm-cortexa9-linux-gnueabihf]
+  ignore line: [Configured with: /work/toolchain/build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9-linux-gnueabihf --prefix=/opt/FriendlyARM/toolchain/4.9.3 --with-sysroot=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-languages=c c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion=ctng-1.21.0-229g-FA --with-bugurl=http://www.friendlyarm.com/ --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --with-gmp=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpfr=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpc=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-isl=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-cloog=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-libelf=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-linker-build-id --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-multilib --with-local-prefix=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (ctng-1.21.0-229g-FA) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu']
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/cc1 -quiet -v -iprefix /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/ -isysroot /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3 -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccJlOnVO.s]
+  ignore line: [GNU C (ctng-1.21.0-229g-FA) version 4.9.3 (arm-cortexa9-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include"]
+  ignore line: [ignoring nonexistent directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/include"]
+  ignore line: [ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (ctng-1.21.0-229g-FA) version 4.9.3 (arm-cortexa9-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: eeb0d0cd8c4112e84e5c64edda5289df]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu']
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3 -meabi=5 -o CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o /tmp/ccJlOnVO.s]
+  ignore line: [GNU assembler version 2.25.1 (arm-cortexa9-linux-gnueabihf) using BFD version (ctng-1.21.0-229g-FA) 2.25.1]
+  ignore line: [COMPILER_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu']
+  ignore line: [Linking C executable cmTC_3ec84]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ec84.dir/link.txt --verbose=1]
+  ignore line: [/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc     -v -rdynamic CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o  -o cmTC_3ec84 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-cortexa9-linux-gnueabihf]
+  ignore line: [Configured with: /work/toolchain/build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9-linux-gnueabihf --prefix=/opt/FriendlyARM/toolchain/4.9.3 --with-sysroot=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-languages=c c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion=ctng-1.21.0-229g-FA --with-bugurl=http://www.friendlyarm.com/ --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --with-gmp=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpfr=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpc=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-isl=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-cloog=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-libelf=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-linker-build-id --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-multilib --with-local-prefix=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (ctng-1.21.0-229g-FA) ]
+  ignore line: [COMPILER_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3ec84' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu']
+  link line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/collect2 -plugin /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4Hgo3c.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_3ec84 /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crt1.o /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crti.o /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtbegin.o -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3 -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib -L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib -L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtend.o /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crtn.o]
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4Hgo3c.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3ec84] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crt1.o] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crti.o] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3]
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc]
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib]
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib]
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib]
+    arg [CMakeFiles/cmTC_3ec84.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3] ==> [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3]
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc] ==> [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc]
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/lib]
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/lib]
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3;/mnt/d/nanopi/toolchain/4.9.3/lib/gcc;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/lib;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/lib;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ce01/fast && /usr/bin/make -f CMakeFiles/cmTC_7ce01.dir/build.make CMakeFiles/cmTC_7ce01.dir/build
+make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ce01.dir/testCXXCompiler.cxx.o
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++     -o CMakeFiles/cmTC_7ce01.dir/testCXXCompiler.cxx.o -c /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7ce01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce01.dir/link.txt --verbose=1
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++       -rdynamic CMakeFiles/cmTC_7ce01.dir/testCXXCompiler.cxx.o  -o cmTC_7ce01 
+make[1]: Leaving directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2d4b/fast && /usr/bin/make -f CMakeFiles/cmTC_d2d4b.dir/build.make CMakeFiles/cmTC_d2d4b.dir/build
+make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++    -v -o CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++
+Target: arm-cortexa9-linux-gnueabihf
+Configured with: /work/toolchain/build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9-linux-gnueabihf --prefix=/opt/FriendlyARM/toolchain/4.9.3 --with-sysroot=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-languages=c,c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion=ctng-1.21.0-229g-FA --with-bugurl=http://www.friendlyarm.com/ --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --with-gmp=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpfr=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpc=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-isl=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-cloog=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-libelf=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-linker-build-id --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-multilib --with-local-prefix=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-long-long
+Thread model: posix
+gcc version 4.9.3 (ctng-1.21.0-229g-FA) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu'
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/cc1plus -quiet -v -iprefix /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/ -isysroot /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3 -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccNLQ8nt.s
+GNU C++ (ctng-1.21.0-229g-FA) version 4.9.3 (arm-cortexa9-linux-gnueabihf)
+	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3"
+ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/arm-cortexa9-linux-gnueabihf"
+ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/backward"
+ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include"
+ignoring nonexistent directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/include"
+ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed"
+ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/arm-cortexa9-linux-gnueabihf
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/backward
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/include
+End of search list.
+GNU C++ (ctng-1.21.0-229g-FA) version 4.9.3 (arm-cortexa9-linux-gnueabihf)
+	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3ff7ac3bbb22638e38898d02aefebadb
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu'
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3 -meabi=5 -o CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNLQ8nt.s
+GNU assembler version 2.25.1 (arm-cortexa9-linux-gnueabihf) using BFD version (ctng-1.21.0-229g-FA) 2.25.1
+COMPILER_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu'
+Linking CXX executable cmTC_d2d4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2d4b.dir/link.txt --verbose=1
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++      -v -rdynamic CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d2d4b 
+Using built-in specs.
+COLLECT_GCC=/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++
+COLLECT_LTO_WRAPPER=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper
+Target: arm-cortexa9-linux-gnueabihf
+Configured with: /work/toolchain/build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9-linux-gnueabihf --prefix=/opt/FriendlyARM/toolchain/4.9.3 --with-sysroot=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-languages=c,c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion=ctng-1.21.0-229g-FA --with-bugurl=http://www.friendlyarm.com/ --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --with-gmp=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpfr=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpc=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-isl=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-cloog=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-libelf=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-linker-build-id --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-multilib --with-local-prefix=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-long-long
+Thread model: posix
+gcc version 4.9.3 (ctng-1.21.0-229g-FA) 
+COMPILER_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d2d4b' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu'
+ /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/collect2 -plugin /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVQ8srP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d2d4b /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crt1.o /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crti.o /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtbegin.o -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3 -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib -L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib -L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtend.o /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crtn.o
+make[1]: Leaving directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3]
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/arm-cortexa9-linux-gnueabihf]
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/backward]
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include]
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed]
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include]
+    add: [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/include]
+  end of search list found
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include/c++/4.9.3]
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/arm-cortexa9-linux-gnueabihf] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/arm-cortexa9-linux-gnueabihf]
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/backward] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/backward]
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include] ==> [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include]
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed] ==> [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed]
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include]
+  collapse include dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/include] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/usr/include]
+  implicit include dirs: [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include/c++/4.9.3;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/arm-cortexa9-linux-gnueabihf;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/backward;/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include;/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/include;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d2d4b/fast && /usr/bin/make -f CMakeFiles/cmTC_d2d4b.dir/build.make CMakeFiles/cmTC_d2d4b.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++    -v -o CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++]
+  ignore line: [Target: arm-cortexa9-linux-gnueabihf]
+  ignore line: [Configured with: /work/toolchain/build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9-linux-gnueabihf --prefix=/opt/FriendlyARM/toolchain/4.9.3 --with-sysroot=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-languages=c c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion=ctng-1.21.0-229g-FA --with-bugurl=http://www.friendlyarm.com/ --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --with-gmp=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpfr=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpc=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-isl=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-cloog=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-libelf=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-linker-build-id --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-multilib --with-local-prefix=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (ctng-1.21.0-229g-FA) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu']
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/cc1plus -quiet -v -iprefix /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/ -isysroot /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3 -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccNLQ8nt.s]
+  ignore line: [GNU C++ (ctng-1.21.0-229g-FA) version 4.9.3 (arm-cortexa9-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3"]
+  ignore line: [ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/arm-cortexa9-linux-gnueabihf"]
+  ignore line: [ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/backward"]
+  ignore line: [ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include"]
+  ignore line: [ignoring nonexistent directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/include"]
+  ignore line: [ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/../../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/arm-cortexa9-linux-gnueabihf]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include/c++/4.9.3/backward]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/include-fixed]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/include]
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (ctng-1.21.0-229g-FA) version 4.9.3 (arm-cortexa9-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3ff7ac3bbb22638e38898d02aefebadb]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu']
+  ignore line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3 -meabi=5 -o CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNLQ8nt.s]
+  ignore line: [GNU assembler version 2.25.1 (arm-cortexa9-linux-gnueabihf) using BFD version (ctng-1.21.0-229g-FA) 2.25.1]
+  ignore line: [COMPILER_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu']
+  ignore line: [Linking CXX executable cmTC_d2d4b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2d4b.dir/link.txt --verbose=1]
+  ignore line: [/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++      -v -rdynamic CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d2d4b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-cortexa9-linux-gnueabihf]
+  ignore line: [Configured with: /work/toolchain/build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9-linux-gnueabihf --prefix=/opt/FriendlyARM/toolchain/4.9.3 --with-sysroot=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-languages=c c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion=ctng-1.21.0-229g-FA --with-bugurl=http://www.friendlyarm.com/ --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --with-gmp=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpfr=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-mpc=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-isl=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-cloog=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --with-libelf=/work/toolchain/build/arm-cortexa9-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-linker-build-id --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-multilib --with-local-prefix=/opt/FriendlyARM/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (ctng-1.21.0-229g-FA) ]
+  ignore line: [COMPILER_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/:/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib/:/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d2d4b' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mtls-dialect=gnu']
+  link line: [ /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/collect2 -plugin /mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVQ8srP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d2d4b /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crt1.o /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crti.o /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtbegin.o -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3 -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc -L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib -L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib -L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtend.o /mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crtn.o]
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/mnt/d/nanopi/toolchain/4.9.3/bin/../libexec/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVQ8srP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d2d4b] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crt1.o] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crti.o] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3]
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc]
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib]
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib]
+    arg [-L/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib] ==> dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib]
+    arg [CMakeFiles/cmTC_d2d4b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
+    arg [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3] ==> [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3]
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc] ==> [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc]
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3/../../../../arm-cortexa9-linux-gnueabihf/lib] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/lib]
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/lib] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/lib]
+  collapse library dir [/mnt/d/nanopi/toolchain/4.9.3/bin/../arm-cortexa9-linux-gnueabihf/sys-root/usr/lib] ==> [/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/mnt/d/nanopi/toolchain/4.9.3/lib/gcc/arm-cortexa9-linux-gnueabihf/4.9.3;/mnt/d/nanopi/toolchain/4.9.3/lib/gcc;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/lib;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/lib;/mnt/d/nanopi/toolchain/4.9.3/arm-cortexa9-linux-gnueabihf/sys-root/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88eb2/fast && /usr/bin/make -f CMakeFiles/cmTC_88eb2.dir/build.make CMakeFiles/cmTC_88eb2.dir/build
+make[1]: Entering directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_88eb2.dir/feature_tests.cxx.o
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++    -std=c++14 -o CMakeFiles/cmTC_88eb2.dir/feature_tests.cxx.o -c /mnt/d/code_project/nanopi/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_88eb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88eb2.dir/link.txt --verbose=1
+/mnt/d/nanopi/toolchain/4.9.3/bin/arm-linux-g++       -rdynamic CMakeFiles/cmTC_88eb2.dir/feature_tests.cxx.o  -o cmTC_88eb2 
+make[1]: Leaving directory '/mnt/d/code_project/nanopi/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

@@ -1,0 +1,4 @@
+/mnt/d/code_project/nanopi/CMakeFiles/rebuild_cache.dir
+/mnt/d/code_project/nanopi/CMakeFiles/edit_cache.dir
+/mnt/d/code_project/nanopi/usb_cam/CMakeFiles/rebuild_cache.dir
+/mnt/d/code_project/nanopi/usb_cam/CMakeFiles/edit_cache.dir
