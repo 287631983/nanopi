@@ -1,17 +1,13 @@
 #ifndef __V4L2_H
 #define __V4L2_H
 
-#define NB_BUFFER   16
-#define V4L2_CID_BACKLIGHT_COMPENSATION	(V4L2_CID_PRIVATE_BASE+0)
-#define V4L2_CID_POWER_LINE_FREQUENCY	(V4L2_CID_PRIVATE_BASE+1)
-#define V4L2_CID_SHARPNESS		(V4L2_CID_PRIVATE_BASE+2)
-#define V4L2_CID_HUE_AUTO		(V4L2_CID_PRIVATE_BASE+3)
-#define V4L2_CID_FOCUS_AUTO		(V4L2_CID_PRIVATE_BASE+4)
-#define V4L2_CID_FOCUS_ABSOLUTE		(V4L2_CID_PRIVATE_BASE+5)
-#define V4L2_CID_FOCUS_RELATIVE		(V4L2_CID_PRIVATE_BASE+6)
+#include <linux/videodev2.h>
+#include <linux/v4l2-controls.h>
 
-#define V4L2_CID_PANTILT_RELATIVE	(V4L2_CID_PRIVATE_BASE+7)
-#define V4L2_CID_PANTILT_RESET		(V4L2_CID_PRIVATE_BASE+8)
+#define NB_BUFFER   16
+#define DHT_SIZE 420
+
+#define V4L2_CLASS v4l2::Instance()
 
 struct vdIn {
     int fd;
@@ -25,32 +21,34 @@ struct vdIn {
     void *mem[NB_BUFFER];
     unsigned char *tmpBuffer;
     unsigned char *frameBuffer;
-    int isStreaming;
+    bool isStreaming;
     int grabMethod;
-    int width;
-    int height;
+    unsigned int width;
+    unsigned int height;
     int formatIn;
     int formatOut;
-    int frameSizeIn;
+    unsigned int frameSizeIn;
     int signalQuit;
     int toggleAvi;
     int getPict;
 
-}
+};
+
 class v4l2 {
     public:
-        int init_videoIn(struct vdIn *vd, char *device, int width, int height, int format, int grabmethod);
-        int uvcGrab(struct vdIn *vd);
-        int init_v4l2 (struct vdIn *vd);
+        static v4l2* Instance();
+        int initVideoIn(struct vdIn *vd, char *device, int width, int height, int format, int grabmethod);
+        int initV4l2 (struct vdIn *vd);
+        int videoEnable(struct vdIn *vd);
         int closeV4l2(struct vdIn *vd);
-
+        int uvcGrab(struct vdIn *vd);
         int v4l2GetControl(struct vdIn *vd, int control);
         int v4l2SetControl(struct vdIn *vd, int control, int value);
-        int v4l2UpControl(struct vdIn *vd, int control);
-        int v4l2DownControl(struct vdIn *vd, int control);
-        int v4l2ToggleControl(struct vdIn *vd,, int control);
-        int v4l2ResetControl(struct vdIn *vd,, int control);
+        int v4l2ResetControl(struct vdIn *vd, int control);
     private:
-}
+        static v4l2 *mInstance;
+        int videoDisable(struct vdIn *vd);
+        int isV4l2Control(struct vdIn *vd, int control, struct v4l2_queryctrl *queryctrl);
+};
 
 #endif
