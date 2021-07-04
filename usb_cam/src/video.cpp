@@ -14,8 +14,7 @@
 
 int run = 1;
 
-int
-compress_yuyv_to_jpeg (struct vdIn *vd, FILE * file, int quality)
+int compress_yuyv_to_jpeg (struct vdIn *vd, FILE * file, int quality)
 {
   struct jpeg_compress_struct cinfo;
   struct jpeg_error_mgr jerr;
@@ -108,39 +107,60 @@ int main(int argc, char **argv)
   if (V4L2_CLASS->initVideoIn(videoIn, (char *) videodevice, width, height, format, grabmethod) < 0)
     exit (1);
 
-    while (run) {
-    if (verbose >= 2)
-      fprintf (stderr, "Grabbing frame\n");
-    if (V4L2_CLASS->uvcGrab (videoIn) < 0) {
-      fprintf (stderr, "Error grabbing\n");
-      V4L2_CLASS->closeV4l2 (videoIn);
-      free (videoIn);
-      exit (1);
-    }
-
-    if ((difftime (time (NULL), ref_time) > delay) || delay == 0) {
-        if (verbose >= 1)
-            fprintf (stderr, "Saving image to: %s\n", outputfile);
-        file = fopen (outputfile, "wb");
-        if (file != NULL) {
-        switch (videoIn->formatIn) {
-            case V4L2_PIX_FMT_YUYV:
-                LOGE("formatin is yuyv");
-                break;
-            default:
-                fwrite (videoIn->tmpBuffer, videoIn->buf.bytesused + DHT_SIZE, 1,
-                file);
-            break;
-        }
-        fclose (file);
-        videoIn->getPict = 0;
-      }
-
-      ref_time = time (NULL);
-    }
-    if (delay == 0)
-      break;
+unsigned char temp[256];
+while(true) {
+  if (V4L2_CLASS->uvcGrab (videoIn) < 0) {
+    LOGE("uvc grab error!");
+    V4L2_CLASS->closeV4l2(videoIn);
+    return;
   }
+  // file = fopen (outputfile, "wb");
+  // fwrite (videoIn->frameBuffer, width*height*4, 1,file);
+  // fclose (file);
+  for (int i = 0; i < sizeof(temp); i++) {
+    if (videoIn->frameBuffer[i] > 128)
+      temp[i] = 0x31;
+      else
+        temp[i] =0x32;
+  }
+  videoIn->getPict = 0;
+  printf("%s",temp);
+  usleep(50*1000);
+}
+
+  //   while (run) {
+  //   if (verbose >= 2)
+  //     fprintf (stderr, "Grabbing frame\n");
+  //   if (V4L2_CLASS->uvcGrab (videoIn) < 0) {
+  //     fprintf (stderr, "Error grabbing\n");
+  //     V4L2_CLASS->closeV4l2 (videoIn);
+  //     free (videoIn);
+  //     exit (1);
+  //   }
+
+  //   if ((difftime (time (NULL), ref_time) > delay) || delay == 0) {
+  //       if (verbose >= 1)
+  //           fprintf (stderr, "Saving image to: %s\n", outputfile);
+  //       file = fopen (outputfile, "wb");
+  //       if (file != NULL) {
+  //       switch (videoIn->formatIn) {
+  //           case V4L2_PIX_FMT_YUYV:
+  //               compress_yuyv_to_jpeg (videoIn, file, quality);
+  //               break;
+  //           default:
+  //               fwrite (videoIn->tmpBuffer, videoIn->buf.bytesused + DHT_SIZE, 1,
+  //               file);
+  //           break;
+  //       }
+  //       fclose (file);
+  //       videoIn->getPict = 0;
+  //     }
+
+  //     ref_time = time (NULL);
+  //   }
+  //   if (delay == 0)
+  //     break;
+  // }
   V4L2_CLASS->closeV4l2 (videoIn);
   free (videoIn);
 
